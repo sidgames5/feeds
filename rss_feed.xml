@@ -6,7 +6,7 @@
   <link>https://blog.thefossrant.com</link>
   <item>
     <title>Welcome to my blog!</title>
-    <pubDate>2024-03-10</pubDate>
+    <pubDate>20240310T000000Z</pubDate>
     <link>https://blog.thefossrant.com/article.php?id=Welcome+to+my+blog%21</link>
     <image></image>
     <tags></tags>
@@ -21,7 +21,7 @@
   </item>
   <item>
     <title>My experience with UniFi</title>
-    <pubDate>2024-03-13</pubDate>
+    <pubDate>20240313T000000Z</pubDate>
     <link>https://blog.thefossrant.com/article.php?id=My+experience+with+UniFi</link>
     <image></image>
     <tags></tags>
@@ -38,7 +38,7 @@
   </item>
   <item>
     <title>I made a voice assistant</title>
-    <pubDate>2024-03-22</pubDate>
+    <pubDate>20240322T000000Z</pubDate>
     <link>https://blog.thefossrant.com/article.php?id=I+made+a+voice+assistant</link>
     <image></image>
     <tags></tags>
@@ -53,7 +53,7 @@
   </item>
   <item>
     <title>RSS feeds are now available on my blog</title>
-    <pubDate>2024-08-02</pubDate>
+    <pubDate>20240802T000000Z</pubDate>
     <link>https://blog.thefossrant.com/article.php?id=RSS+feeds+are+now+available+on+my+blog</link>
     <image></image>
     <tags>rss</tags>
@@ -66,7 +66,7 @@
   </item>
   <item>
     <title>I rewrote my blog site</title>
-    <pubDate>2024-08-02 17:48:00 EDT</pubDate>
+    <pubDate>20240802T214800Z</pubDate>
     <link>https://blog.thefossrant.com/article.php?id=I+rewrote+my+blog+site</link>
     <image></image>
     <tags>php, programming</tags>
