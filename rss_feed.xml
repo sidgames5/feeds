@@ -11,13 +11,13 @@
     <image></image>
     <tags></tags>
     <summary>I've set up my blog where you can now find all my latest posts.</summary>
-    <content>
+    <content><![CDATA[
       I now have a blog where I can post stuff to. All of these blog posts will be sent to mastodon if you would like to receive notifications when I make a post. My page is @sidgames5@mastodon.social.
       <br><br>
       I wrote this blog page entirely with HTML and CSS meaning you can disable JavaScript and still be able to read my posts. That does make it slightly more inconvenient for me to make posts, but you won't have to use JavaScript and the page will load a bit faster. Unfortunately there is no RSS feed yet.
       <br><br>
       I will make posts here whenever I do something interesting. I will also post my video tutorials here in text form for those of you who like to read.
-    </content>
+    ]]></content>
   </item>
   <item>
     <title>My experience with UniFi</title>
@@ -26,7 +26,7 @@
     <image></image>
     <tags></tags>
     <summary>I bought a UniFi Dream Router. How does it hold up to my ISP router?</summary>
-    <content>
+    <content><![CDATA[
       A few months ago I purchased a UniFi Dream Router after experiencing problems with my ISP-provided router. And now I can't go back. I have tried 2 different ISP routers as well as a couple "gaming" routers. The difference between your router and the UniFi Dream Router is that UniFi makes enterprise hardware. They managed to pack all of the enterprise features from their super expensive rackmount hardware into a small $200 device. You might be wondering what the difference is between a residential and enterprise router. The main thing is reliability. With the dream router, I have had zero down time not related to power outages.
       <br><br>
       The Dream Router also has the advantage of the UniFi ecosystem. By using one of the PoE ports on the Dream Router, I was able to add a UniFi Flex Mini which gives me 4 more ethernet ports without any power cables.
@@ -34,7 +34,7 @@
       The dream router also provides an affordable introduction to the UniFi ecosystem for small businesses. If you don't have much money and you need quality internet, you can use the Dream Router and simply replace it for something like the Dream Machine Pro for more capacity.
       <br><br>
       I highly recommend the Dream Router for people seeking a reliable and expandable network. This is not at all sponsored, this is just from my experience. Unfortunately it has been out of stock on the UniFi website for a while but you can get it for about $300 on Amazon.
-    </content>
+    ]]></content>
   </item>
   <item>
     <title>I made a voice assistant</title>
@@ -43,13 +43,13 @@
     <image></image>
     <tags></tags>
     <summary>I created my own private voice assistant using python and Ollama.</summary>
-    <content>
+    <content><![CDATA[
       I have just released the first version of my voice assistant Excalibur! It is an alternative to voice assistants like Google and Alexa but privacy focused. You can download it on github.
       <br><br>
       The voice assistant is written completely in python. It uses Vosk for speech recognition and Ollama for AI processing. It currently has the ability to answer questions, give you the time, and give you the weather. It works by detecting words in your prompt like "weather" and "time" and gives you a result based on that. If none of the trigger words are detected, it hands off the prompt to the AI which will try its best to generate an answer.
       <br><br>
       I am working on adding smart device control and integration with other services like Spotify and Nextcloud. Hopefully this project will become good enough to take on popular privacy-invading voice assistants.
-    </content>
+    ]]></content>
   </item>
   <item>
     <title>RSS feeds are now available on my blog</title>
@@ -58,11 +58,11 @@
     <image></image>
     <tags>rss</tags>
     <summary>I set up an RSS feed on my blog site</summary>
-    <content>
+    <content><![CDATA[
       I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.
       <br><br>
       As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!
-    </content>
+    ]]></content>
   </item>
   <item>
     <title>I rewrote my blog site</title>
@@ -71,11 +71,11 @@
     <image></image>
     <tags>php, programming</tags>
     <summary>I created a new blog site using PHP and CSS.</summary>
-    <content>
+    <content><![CDATA[
       So I recently added RSS feeds to my blog and that means I would have to edit 3 files to create a blog post. That's ridiculous! So I made a new blog site in PHP. All of the data comes in from the RSS feed, meaning I only have to edit 1 file. In the future, I will probably create a program which automatically formats the XML and stuff so I only need to worry about typing the article. I considered automatically generating a summary using AI but it didn't work out so well. In the future when AI improves, I might do that. The site is hosted on domino server (one of my 2 servers) using Apache in a docker container and is then proxied through Caddy which generates the SSL certificate. As of right now Caddy is running on a raspberry pi so if the site grows in popularity I might have to scale things up. There are still a couple things I need to add to the website but for now it is in great shape!
       <br><br>
       So that is it about my new site. I do have some more exciting news! I am gonna resume posting on the Sid Talks Linux channel as well as the FOSS Rant podcast. I have been really busy in the past few months with school and other stuff.
-    </content>
+    ]]></content>
   </item>
   <item>
     <title>My homelab had the stupidest outage ever</title>
@@ -84,7 +84,7 @@
     <image></image>
     <tags>homelab, server, linux, ubuntu, bios, uefi</tags>
     <summary>My main server got stuck while booting on a prompt to set the system clock.</summary>
-    <content>
+    <content><![CDATA[
       This morning I woke up to my phone using mobile data and my home assistant automations not working. Initially I thought it the power was out, but I could turn on the lights just fine. I checked my UniFi app and saw that the server was not connected to the network at all. This meant that the cable got unplugged, the switch isn't working, or the server isn't working. It said the switch was connected and another device was connected to the switch so that narrows it down to just 2 cases. So I opened my server closet in the basement and immediately noticed something was wrong. I couldn't figure out what was wrong but I just felt like something was wrong. Everything was plugged in, the network switch lights were blinking like normal, my raspberry pi was running just fine, even the server indicator lights were on. My main server is an old gaming PC so it has a glass side panel so I looked inside and I could see the fan spinning, but I could not hear it. Usually I have it set to full speed and I can hear full speed very well. I tried rebooting the server with the power button and the fans didn't go to full speed. As a last resort, I brought down a keyboard and monitor. As soon as I plugged in the monitor, I saw that there was a prompt to set the time on the BIOS!
       <br>
       <img src="https://feeds.thefossrant.com/assets/2024-08-04-06-18-21-259.jpg" alt="Picture of the prompt">
@@ -96,7 +96,7 @@
       <br><br>
       <h3>Preventing this in the future</h3>
       From what I can see, I just need to replace the CMOS battery. But this computer has been running for over 4 years, so what is stopping this from happening again around 2028? The most effective solution is going to be preventing power outages in the first place. This can be done using a battery backup or a standby generator. Standby generators will last longer during a power outage but are typically more expensive and harder to setup than a simple battery backup. 
-    </content>
+    ]]></content>
   </item>
 </channel>
 
