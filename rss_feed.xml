@@ -98,6 +98,21 @@
       From what I can see, I just need to replace the CMOS battery. But this computer has been running for over 4 years, so what is stopping this from happening again around 2028? The most effective solution is going to be preventing power outages in the first place. This can be done using a battery backup or a standby generator. Standby generators will last longer during a power outage but are typically more expensive and harder to setup than a simple battery backup. 
     ]]></content>
   </item>
+  <item>
+    <title>Roast your developer portfolio</title>
+    <pubDate>20240814T145556Z</pubDate>
+    <link>https://blog.thefossrant.com/article.php?id=Roast+your+developer+portfolio</link>
+    <image></image>
+    <tags>website, python, html, js, ai</tags>
+    <summary>I made a simple website that roasts your developer portfolio site using AI.</summary>
+    <content><![CDATA[
+      I have just made yet another website! This one is inspired by <a href="https://github-roast.pages.dev/">codenoid/github-roast</a>. Basically you just input a link to your portfolio site and it roasts it. Once you roast it, make sure to post it to Mastodon and Twitter with the <a href="https://mastodon.social/tags/devportfolioroast">#devportfolioroast</a> hashtag.
+      <br>
+      The front-end was written in HTML, CSS, and JS and the backend fully in Python. Once you input the URL, the backend will send a request to the Gemma:2B model from Google using Ollama. It will then send the roast back to the browser and display it. The site is super simple.
+      <br>
+      Now it is time for you to go and roast your portfolio: <a href="https://portfolio-roast.thefossrant.com">https://portfolio-roast.thefossrant.com</a>
+    ]]></content>
+  </item>
 </channel>
 
 </rss>
